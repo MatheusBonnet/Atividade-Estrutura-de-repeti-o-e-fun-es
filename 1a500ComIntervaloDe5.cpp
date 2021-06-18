@@ -11,4 +11,26 @@ int main(){
 			cout << i;	
 		}
 	}
+	
+		int num = 0;
+	
+	while(num <= 500){
+		if(num % 5 == 0){
+			cout << "\n";
+			cout << num;
+		}
+		num++;
+	}
+	
+	int num = 0;
+	
+	do{
+		if(num % 5 == 0){
+			cout << "\n";
+			cout << num;
+		}
+		num++;
+	}while(num <= 500);
+	
+	return 0;
 }
