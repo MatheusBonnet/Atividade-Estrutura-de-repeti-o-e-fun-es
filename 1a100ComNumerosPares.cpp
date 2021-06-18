@@ -11,4 +11,26 @@ int main(){
 			cout << i;
 		}
 	}
+	
+	int num = 1;
+	
+	while(num <= 100){
+		if(num % 2 == 0){
+			cout << "\n";
+			cout << num;
+		}
+		num++;
+	}
+	
+	int num = 1;
+	
+	do{
+		if(num % 2 == 0){
+			cout << "\n";
+			cout << num;
+		}
+		num++;
+	}while(num <= 100);
+	
+	return 0;
 }
