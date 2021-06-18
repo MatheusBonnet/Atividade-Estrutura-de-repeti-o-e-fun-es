@@ -11,4 +11,26 @@ int main(){
 			cout << i;		
 		}
 	}
+	
+	int num = 1;
+	
+	while(num <= 300){
+		if(num % 3 == 0){
+			cout << "\n";
+			cout << num;
+		}
+		num++;
+	}
+	
+	int num = 1;
+	
+	do{
+		if(num % 3 == 0){
+			cout << "\n";
+			cout << num;
+		}
+		num++;
+	}while(num <= 300);
+	
+	return 0;
 }
